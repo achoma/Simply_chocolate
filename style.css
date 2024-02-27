@@ -169,7 +169,6 @@
     height: 28px;
   }
   
-  /* ============TABLET============== */
   
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     .header-navigation {
@@ -346,7 +345,7 @@
   .hero-background {
     align-items: end;
     background-image: linear-gradient(#11111100, #111111),
-      url('../images/hero/hero-background-mobile.jpg');
+      url('./images/hero/hero-background-mobile.jpg');
     background-repeat: no-repeat;
     border-radius: 30px;
     color: var(--color-white);
@@ -457,14 +456,14 @@
     screen and (min-resolution: 2dppx) {
     .hero-background {
       background-image: linear-gradient(#11111100, #111111),
-        url('../images/hero/hero-background-mobile@2x.jpg');
+        url('./images/hero/hero-background-mobile@2x.jpg');
     }
   }
   
   @media screen and (min-width: 768px) {
     .hero-background {
       background-image: linear-gradient(#11111100, #111111),
-        url('../images/hero/hero-background-tablet.jpg');
+        url('./images/hero/hero-background-tablet.jpg');
       height: 890px;
       margin-bottom: 50px;
       padding: 40px;
@@ -513,7 +512,7 @@
       screen and (min-resolution: 2dppx) {
       .hero-background {
         background-image: linear-gradient(#11111100, #111111),
-          url('../images/hero/hero-background-tablet@2x.jpg');
+          url('./images/hero/hero-background-tablet@2x.jpg');
       }
     }
   }
@@ -522,7 +521,7 @@
     .hero-background {
       align-items: end;
       background-image: linear-gradient(#11111100, #111111),
-        url('../images/hero/hero-background-desktop.jpg');
+        url('./images/hero/hero-background-desktop.jpg');
       height: 600px;
       margin-bottom: 72px;
     }
@@ -533,7 +532,7 @@
       screen and (min-resolution: 2dppx) {
       .hero-background {
         background-image: linear-gradient(#11111100, #111111),
-          url('../images/hero/hero-background-desktop@2x.jpg');
+          url('./images/hero/hero-background-desktop@2x.jpg');
       }
     }
   }
@@ -611,7 +610,6 @@
     border: 1px solid rgba(255, 255, 255, 0.5);
   }
   
-  /* ------------------------------------------TABLET---------------------------------- */
   
   @media screen and (min-width: 768px) {
     .advanteges-card-set {
@@ -633,7 +631,6 @@
     }
   }
   
-  /* -----------------------------------------------DESKTOP-------------------------------------- */
   
   @media screen and (min-width: 1200px) {
     .advanteges-card-set {
@@ -1001,7 +998,7 @@
       list-style: none;
       width: calc((100% - 24px) / 2);
       max-width: 704px;
-      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      perspective: 1000px; 
     }
     .components-milk-chocolate {
       width: 336px;
@@ -1558,7 +1555,6 @@
       lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
   }
   
-  /* ------------------------------------------TABLET---------------------------------- */
   
   @media screen and (min-width: 768px) {
     .making-video {
@@ -1604,7 +1600,6 @@
     }
   }
   
-  /* -----------------------------------------------DESKTOP-------------------------------------- */
   
   @media screen and (min-width: 1200px) {
     .making-video {
@@ -1773,7 +1768,6 @@
                 }
 
 
-/* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
 
     .products {
@@ -1803,7 +1797,6 @@
         }
 
 
-/* ================================================= DESKTOP 👇 ========================================= */
 @media screen and (min-width: 1200px) {
 
     .products {
@@ -1823,7 +1816,6 @@
 }
 
   /******************** SELLERS ********************/
-/*--------------------------------------------------------MOBILE-----------------------------------------------*/
 .sellers-div {
     margin: 0 auto;
     padding: 0 20px;
@@ -1897,7 +1889,6 @@
     justify-content: center;
 }
 
-/*--------------------------------------------------------TABLET-----------------------------------------------*/
 @media screen and (min-width: 768px) {
 .mobile-sellers {
     display: none;
@@ -1940,7 +1931,6 @@
     padding: 14px 40px;
 }
 }
-/*--------------------------------------------------------DESKTOP-----------------------------------------------*/
 @media screen and (min-width: 1200px) {
 .mobile-sellers {
     display: none;
@@ -2132,12 +2122,11 @@
   }
   
   /******************** SUBSCRIBE ******************/
-/* ================================================= MOBILE 👇 ========================================= */
 
 
 .subscribe {
     background-color: #000000;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe/subscribe-mobile.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./images/subscribe/subscribe-mobile.jpg);
     background-size: cover;
     height: 370px;
     display: flex;
@@ -2152,7 +2141,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .subscribe {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe/subscribe-mobile@2x.jpg);
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./images/subscribe/subscribe-mobile@2x.jpg);
     }
 }
 
@@ -2281,7 +2270,7 @@ transition: background-color .25s cubic-bezier(.4,0,.2,1), visibility .25s cubic
 .subscribe-modal-background {
     width: 311px;
     height: 169px;
-    background-image: url(../images/modal-subscribe/subscribe-mobile.jpg);
+    background-image: url(./images/modal-subscribe/subscribe-mobile.jpg);
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -2289,7 +2278,7 @@ transition: background-color .25s cubic-bezier(.4,0,.2,1), visibility .25s cubic
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
     .subscribe-modal-background {
-        background-image: url(../images/modal-subscribe/subscribe-mobile@2x.jpg);
+        background-image: url(./images/modal-subscribe/subscribe-mobile@2x.jpg);
     }
 }    
 
@@ -2450,7 +2439,6 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 }
 
 
-/* ========== klasy okna modalnego start ========== */
 
 .subscribe-modal {
 width: 538px;
@@ -2638,7 +2626,6 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
     color: var(--color-orange);
 }
 
-/* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
 
     .footer-contact-box{
@@ -2669,7 +2656,6 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
 
 }
 
-/* ================================================= DESKTOP 👇 ========================================= */
 @media screen and (min-width: 1200px) {
         
     .footer-contact-box {
@@ -2678,7 +2664,6 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
 
 }
 
-  /******************** MODAL-SUBSCRIBE ************/
 
   /******************** MODAL-MENU *****************/
 
@@ -3071,7 +3056,7 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
   .buy-schoco-cont-one {
     width: 84px;
     height: 69px;
-    background: url(/src/images/modal-buy/buy-1-mobile.jpg);
+    background: url(images/modal-buy/buy-1-mobile.jpg);
     background-size: cover;
   }
   
@@ -3080,7 +3065,7 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .buy-schoco-cont-one {
-      background-image: url(/src/images/modal-buy/buy-1-mobile@2x.jpg);
+      background-image: url(images/modal-buy/buy-1-mobile@2x.jpg);
     }
   }
   
@@ -3128,7 +3113,7 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
   .buy-schoco-cont-two {
     width: 84px;
     height: 69px;
-    background: url(/src/images/modal-buy/buy-2-mobile.jpg);
+    background: url(images/modal-buy/buy-2-mobile.jpg);
     background-size: cover;
   }
   
@@ -3137,14 +3122,14 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .buy-schoco-cont-two {
-      background-image: url(/src/images/modal-buy/buy-2-mobile@2x.jpg);
+      background-image: url(images/modal-buy/buy-2-mobile@2x.jpg);
     }
   }
   
   .buy-schoco-cont-three {
     width: 84px;
     height: 69px;
-    background: url(/src/images/modal-buy/buy-3-mobile.jpg);
+    background: url(images/modal-buy/buy-3-mobile.jpg);
     background-size: cover;
   }
   
@@ -3153,7 +3138,7 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .buy-schoco-cont-three {
-      background-image: url(/src/images/modal-buy/buy-3-mobile@2x.jpg);
+      background-image: url(images/modal-buy/buy-3-mobile@2x.jpg);
     }
   }
   
@@ -3293,7 +3278,6 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
     box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
   }
   
-  /* ================================= Tablet ============================*/
   
   @media screen and (min-width: 768px) {
     .buy-window {
@@ -3374,7 +3358,7 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
     }
   
     .buy-schoco-cont-one {
-      background: url(/src/images/modal-buy/buy-1.jpg) 0 0 / cover;
+      background: url(images/modal-buy/buy-1.jpg) 0 0 / cover;
       width: 120px;
       height: 107px;
     }
@@ -3384,12 +3368,12 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       .buy-schoco-cont-one {
-        background: url(/src/images/modal-buy/buy-1@2x.jpg) cover;
+        background: url(images/modal-buy/buy-1@2x.jpg) cover;
       }
     }
   
     .buy-schoco-cont-two {
-      background: url(/src/images/modal-buy/buy-2.jpg) cover;
+      background: url(images/modal-buy/buy-2.jpg) cover;
       width: 120px;
       height: 107px;
     }
@@ -3399,12 +3383,12 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       .buy-schoco-cont-two {
-        background: url(/src/images/modal-buy/buy-2@2x.jpg) cover;
+        background: url(images/modal-buy/buy-2@2x.jpg) cover;
       }
     }
   
     .buy-schoco-cont-three {
-      background: url(/src/images/modal-buy/buy-3.jpg) cover;
+      background: url(images/modal-buy/buy-3.jpg) cover;
       width: 120px;
       height: 107px;
     }
@@ -3414,7 +3398,7 @@ background-image: url(../images/modal-subscribe/subscribe@2x.jpg);
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       .buy-schoco-cont-three {
-        background: url(/src/images/modal-buy/buy-3@2x.jpg) cover;
+        background: url(images/modal-buy/buy-3@2x.jpg) cover;
       }
     }
   
